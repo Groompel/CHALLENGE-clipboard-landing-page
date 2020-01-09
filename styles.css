@@ -1,0 +1,255 @@
+body {
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+.mid-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.sm-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.title-center {
+    width: 48%;
+    margin: 0 auto 6%;
+}
+
+/* Subtexts */
+
+.big-subtext {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.sm-subtext {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+/* Containers */
+
+.container-padding {
+    padding: 0 12%;
+}
+
+/* Header Section */
+
+#header {
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+
+.container-header {
+    padding: 10% 0% 7%;
+}
+
+.title-header {
+    padding: 3% 0 1%;
+}
+
+.btn-download {
+    color: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.9rem 2.9rem 0.7rem;
+    margin: 0.5rem;
+    transition: 0.1s ease;
+}
+
+.btn-download:hover {
+    opacity: 0.8;
+}
+
+.btn-download:active {
+    transform: translateY(2px);
+}
+
+.btn-green {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 1px hsl(171, 66%, 34%);
+}
+
+.btn-green:focus {
+    box-shadow: 0 3px 1px hsl(171, 66%, 34%);
+}
+
+.btn-blue {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 1px hsl(233, 55%, 55%);
+}
+
+.btn-blue:focus {
+    box-shadow: 0 3px 1px hsl(233, 55%, 55%);
+}
+
+
+/* Features Section */
+
+.first-section, .second-section, .third-section {
+    padding-bottom: 8%;
+}
+
+/* First Section */
+
+.image-computer {
+    position: relative;
+    width: 90%;
+    left: -3rem;
+}
+.features-computer {
+    text-align: left;
+}
+
+.feat-block {
+    margin: 4rem 0;
+}
+
+/* Second Section */
+
+.container-second-features {
+    padding: 0% 12% 2%;
+}
+
+.image-devices {
+    width: 100%;
+}
+
+/* Third Section */
+
+
+.image-features {
+    margin: 15% auto;
+    width: 20%;
+}
+
+/* Partners Section */ 
+
+#partners {
+    padding: 5% 0 10%;
+}
+
+.partner-logo {
+    margin: 0 3%;
+}
+
+/* Download Section */
+
+#download {
+    padding: 2% 0 8%;
+}
+
+#download .title-center {
+    margin-bottom: 4%;
+}
+
+/* Footer Section */
+
+#footer {
+    border-top: 1px solid hsla(0, 0%, 72%, 0.687);
+    background-color: hsla(0, 0%, 97%, 0.687);
+    padding: 3% 10% 4%;
+}
+.footer-logo {
+    width: 50px;
+}
+
+.links {
+    text-align: left;
+}
+#footer a {
+    color : hsl(210, 10%, 33%);
+    text-decoration: none;
+}
+#footer a:hover {
+    color: hsl(0, 0%, 52%);
+}
+
+.social-link {
+    margin: 5%;
+}
+
+.attribution {
+    padding-top: 4%;
+}
+/* Media Queries */
+
+@media (max-width: 991.98px) {
+
+    .container-fluid {
+        padding: 20% 10% 7%;
+    }
+
+    .container-header {
+        padding: 20% 10% 7%;
+    }
+    
+    .btn-download {
+        padding: 1rem 25% 0.7rem;
+        font-size: 1.3rem;
+        margin: 1rem;
+    }
+
+    .title-header {
+        padding: 15% 0 4%;
+    }
+
+    .title-center {
+        width: 100%;
+        margin-bottom: 10%; 
+    }
+    
+    #features {
+        padding-bottom: 20%;
+    }
+    
+
+    .first-section {
+        padding-bottom: 0;
+    }
+
+    .second-section {
+        padding-top: 0;
+    }
+
+    .features-computer {
+        text-align: center;
+    }
+    
+    .image-computer {
+        width: 100%;
+        position: static;
+    }
+
+    .partner-logo {
+        margin: 10%;
+    }
+
+    #download .title-center {
+        margin-bottom: 10%;
+    }
+
+    .links {
+        text-align: center;
+    }
+    .footer-item {
+        padding: 3% 0;
+    }
+}
